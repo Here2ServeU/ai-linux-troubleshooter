@@ -1,0 +1,8 @@
+$ tail -n 80 /var/log/syslog
+Sep 18 08:12:02 kernel: [ 123.456789] Out of memory: Kill process 2222 (node) score 500 or sacrifice child
+Sep 18 08:12:02 kernel: Killed process 2222 (node) total-vm:2048000kB, anon-rss:1024000kB, file-rss:512000kB, shmem-rss:0kB
+Sep 18 08:12:03 systemd[1]: myapp.service: Main process exited, code=killed, status=9/KILL
+Sep 18 08:12:03 systemd[1]: myapp.service: Failed with result 'signal'.
+Sep 18 08:12:03 systemd[1]: myapp.service: Scheduled restart job, restart counter is at 3.
+Sep 18 08:12:05 myapp[3333]: Error: ENOSPC: no space left on device, write
+Sep 18 08:12:05 kernel: [ 124.000000] EXT4-fs warning (device xvda1): ext4_dx_add_entry:2455: Directory index full!

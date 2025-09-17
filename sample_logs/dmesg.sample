@@ -1,0 +1,3 @@
+[ 124.000000] EXT4-fs warning (device xvda1): ext4_dx_add_entry:2455: Directory index full!
+[ 125.100000] TCP: eth0: retransmit timeout
+[ 126.200000] systemd[1]: myapp.service: Failed with result 'signal'.
