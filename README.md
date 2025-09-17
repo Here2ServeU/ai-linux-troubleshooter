@@ -1,4 +1,4 @@
-# AI Linux Troubleshooter (B2M Demo)
+# AI Linux Troubleshooter - Beginner2Mastery (B2M) Demo
 
 Use AI (OpenAI or Ollama) to analyze Linux logs and turn raw errors into clear next steps.
 
